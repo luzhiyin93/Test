@@ -3,7 +3,7 @@ body
 {
     font: 100% Arial,Helvetica,sans-serif;
 }
-div,img
+html, body,div,img,ul,span
 {
 	margin: 0px;
     padding: 0px;
@@ -73,7 +73,7 @@ h4 b
 {
 	width: 70px;
 	height: 36px;
-	background-image: url(/Users/yunpeng/Desktop/NEW/image/index.gif);
+	background-image: url(../NEW/image/index.gif);
 	float:left;
 	background-position: 0px 2px;
 }
@@ -94,12 +94,12 @@ h4 b
 {
 	padding:0px 18px;
 	float:left;
-	line-height:18px;
+	line-height:38px;
 	list-style:none;
 }
 .n_nav li.home
 {
-	background-image:url(/Users/yunpeng/Desktop/NEW/image/nav-hover-bg8.png);
+	background-image:url(../NEW/image/nav-hover-bg8.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
@@ -107,7 +107,7 @@ h4 b
 {
 	width: 1024px;
 	height: auto;
-	background-image: url(/Users/yunpeng/Desktop/NEW/image/index-title.gif);
+	background-image: url(../NEW/image/index-title.gif);
 	background-repeat: no-repeat;
 	background-position: left 55px;
 	margin: 0px auto;
@@ -227,7 +227,7 @@ h4 b
 	width: 165px;
 	font-size: 80%;
 }
-.left_group
+.left_group,.left_app
 {
 	padding-top: 5px;
 }
@@ -239,7 +239,7 @@ h4 b
     border-top: 3px solid #F9F9F9;
     padding: 15px 15px 0px 0px;
 }
-.left_group_topic li 
+.left_group_topic li,.left_group_top li
 {
 	width: 340px;
 	padding-left: 60px;
@@ -255,7 +255,7 @@ h4 b
 .left_group a {
     color: #3171B8;
 }
-.left_group .img 
+.left_group .img,.left_app .img
 {
     width: 50px;
     height: 50px;
@@ -263,3 +263,105 @@ h4 b
     z-index: 2;
     margin: 4px 0px 0px -60px;
 }
+.left_group_top,.left_app_book
+{
+    border-top: 3px solid #F9F9F9;
+    padding: 15px 0px 0px 30px;
+    margin-left: 415px;
+    display: block;
+    border-left: 1px solid #E6E6E6;
+}
+.left_group_top li
+{
+    width: 209px;
+}
+.left_app_book
+{
+    height: 329px;
+    overflow: hidden;
+}
+.left_app_book h4
+{
+    position: absolute;
+    z-index: 2;
+    margin: -58px 0px 0px;
+}
+.left_app_book a
+{
+    font-size: small;
+    color: #3171B8;
+}
+.tags {
+    color: #3171B8;
+    background-color: #D9F2FD;
+    margin: 10px 5px 0px 0px;
+    padding: 1px 5px 3px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.main_right
+{
+    width: 275px;
+    float: left;
+    margin-left: 34px;
+    overflow: hidden;
+}
+.right_login 
+{
+    border: 1px solid #F9F9F9;
+    background-color: #FCFCFC;
+    padding: 5px 12px;
+    height: 203px;
+}
+.right_reg 
+{
+    position: absolute;
+    margin: -33px 0px 0px -10px;
+    width: 270px;
+}
+.right_reg_span
+{
+    color: #70b31a;
+    display: block;
+    position: absolute;
+    font-size: small;
+    z-index: 2;
+}
+.green_button
+{
+    float: right;
+    background-color: #3FA156;
+    border: 1px solid #528641;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 14px;
+    font-size: small;
+    padding: 2px 8px;
+    color: #FFF;
+    vertical-align: middle;
+}
+.right_login li 
+{
+    display: block;
+    min-height: 26px;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: small;
+}
+.login_password, .login_email 
+{
+    border-radius: 0px;
+    height: 20px;
+    width: 184px;
+}
+.login_password
+{
+    background-image: url("../NEW/image/index-password.jpg");
+    background-repeat: no-repeat;
+    background-position: 172px center;
+    padding-right: 20px;
+    width: 167px;
+}
+
+
