@@ -1,0 +1,265 @@
+
+body 
+{
+    font: 100% Arial,Helvetica,sans-serif;
+}
+div,img
+{
+	margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+a,li
+{
+	margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    font-weight: normal;
+    font-style: inherit;
+    font-size: 90%;
+    font-family: inherit;
+    vertical-align: baseline;
+	color: #123456;
+}
+ol, ul, li 
+{
+	word-break: break-all;
+    word-wrap: break-word;
+    list-style: outside none none;
+}
+a:link,a:visited, a:hover, a:active 
+{
+    text-decoration: none;
+}
+a:hover, a:active, a
+{
+    transition-duration: 200ms;
+    transition-property: all, background;
+    transition-timing-function: ease;
+}
+h4
+{
+	font-size: 14px !important;
+    color: #000;
+}
+h4 b 
+{
+	font-weight: lighter;
+}
+
+.n_header
+{
+	position: fixed;z-index: 999;width:100%;
+	background-color: #3171b8;
+	display: block;
+	border-bottom: 2px solid #98b8db;
+	height:	38px;
+	top:0;left: 0;width: 100%;
+}
+.n_header_ul
+{
+	width:1024px;
+	margin:0 auto;
+	height: 38px;
+}
+.n_logo
+{
+	width: 70px;
+	height: 36px;
+	background-image: url(/Users/yunpeng/Desktop/NEW/image/index.gif);
+	float:left;
+	background-position: 0px 2px;
+}
+.n_nav
+{
+	font-weight: bold;
+	margin-left: 60px;
+	font-size:14px;
+	float:left;
+	height: 36px;
+}
+.font-write
+{
+	display:block;
+	color:#FFF;
+}
+.n_nav li
+{
+	padding:0px 18px;
+	float:left;
+	line-height:18px;
+	list-style:none;
+}
+.n_nav li.home
+{
+	background-image:url(/Users/yunpeng/Desktop/NEW/image/nav-hover-bg8.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.n_main
+{
+	width: 1024px;
+	height: auto;
+	background-image: url(/Users/yunpeng/Desktop/NEW/image/index-title.gif);
+	background-repeat: no-repeat;
+	background-position: left 55px;
+	margin: 0px auto;
+    padding-top: 88px;
+    z-index: 1;
+}
+.clearfix 
+{
+	
+}
+.main_left
+{
+	width:715px;
+	float:left;
+	overflow: hidden;
+	margin:0 auto;
+}
+.left_show
+{
+	overflow: hidden;
+    height: 215px;
+    width: 715px;
+}
+.left_show_img 
+{
+    height: 215px;
+    width: 270px;
+}
+.left_show_img ul
+{
+	padding: 0;
+    margin:0; 
+}
+.left_show_text 
+{
+    width: 440px;
+    height: 215px;
+    margin-left: 275px;
+    background-color: #FCFCFC;
+    position: absolute;
+    overflow: hidden;
+}
+.left_show_text ul
+{
+	padding: 0;
+    margin:0 10px; 
+}
+.left_show_text li
+{
+	height: 50px;
+	display:block;
+	border-bottom-width: 5px solid #fff;
+	overflow:hidden;
+	margin-bottom: 5px;
+}
+.left_show_text li a {
+    width: 340px;
+    height: 50px;
+    margin-left: 68px;
+    line-height: 24px;
+    position: absolute;
+    overflow: hidden;
+}
+.left_show_text li img {
+    width: 63px;
+    height: 50px;
+    z-index: 2;
+}
+.left_show_text li:hover
+{
+	background-color: #f1f1f1;
+	color: #000;
+}
+.left_feeling
+{
+	overflow:hidden;
+	padding-top: 5px;
+}
+
+.left_feeling ul
+{
+	width: 735px;
+	border-top: 4px solid #F9F9F9;
+	padding:0;
+}
+.left_feeling li 
+{
+    width: 165px;
+    float: left;
+    border-bottom: 1px solid #E6E6E6;
+    margin:0 18px 0 0;
+    padding: 20px 0px;
+}
+.img
+{
+	width: 165px;
+	height: 130px;
+}
+.title
+{
+	width: 165px;
+    color: #000;
+    display: block;
+    padding: 12px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+}
+.text 
+{
+	color: #999;
+    line-height: 19px;
+    overflow: hidden;
+    height: 60px;
+    display: block;
+	width: 165px;
+	font-size: 80%;
+}
+.left_group
+{
+	padding-top: 5px;
+}
+.left_group_topic
+{
+	width: 400px;
+    position: absolute;
+    z-index: 2;
+    border-top: 3px solid #F9F9F9;
+    padding: 15px 15px 0px 0px;
+}
+.left_group_topic li 
+{
+	width: 340px;
+	padding-left: 60px;
+    border-bottom: 1px dashed #E6E6E6;
+    height: 62px;
+    padding-top: 4px;
+    line-height: 22px;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.left_group a {
+    color: #3171B8;
+}
+.left_group .img 
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    margin: 4px 0px 0px -60px;
+}
